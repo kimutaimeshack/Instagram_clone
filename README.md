@@ -1,4 +1,4 @@
-# MY PHOTOS 
+# MY Instagram_clone
 ## Author
 by [MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
 *********
@@ -15,11 +15,11 @@ This is a Django application of a personal gallery with different photos of my i
 ### User stories
 #### As a user of the application I should be able to:
 
-Sign in to the application to start using.
-Upload my pictures to the application.
-See my profile with all my pictures.
-Follow other users and see their pictures on my timeline.
-Like a picture and leave a comment on it.
+* Sign in to the application to start using.
+* Upload my pictures to the application.
+* See my profile with all my pictures.
+* Follow other users and see their pictures on my timeline.
+* Like a picture and leave a comment on it.
 
 ### Live Site
 View [live](https://myphotopp001.herokuapp.com/)
