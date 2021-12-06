@@ -20,7 +20,12 @@
 <body>
     {% include "navbar.html" %}
 
-
+    {% if user.is_authenticated %}
+     <p>Hi {{ user.username }}!</p>
+      {% else %}
+      <p>You are not logged in.</p>
+      <a href="{% url 'login' %}">Log In</a>
+      {% endif %}
     {% block content %} <h1 class='text-center'> Instagram </h1> {%endblock%}
 
     {% block scripts %}
