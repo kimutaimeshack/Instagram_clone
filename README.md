@@ -13,7 +13,7 @@ This is a Django application of a personal gallery with different photos of my i
 </table>
 
 ### Live Site
-View [live](https://myphotosapp001.herokuapp.com/)
+View [live](https://myphotopp001.herokuapp.com/)
 
 ### Prerequisites
 * Python 3
@@ -24,7 +24,7 @@ View [live](https://myphotosapp001.herokuapp.com/)
 ## Setup Instruction
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone $ git clone https://github.com/kimutaimeshack/MYPHOTOSPROJECT.git
+1. Use this command to clone $ git clone https://github.com/kimutaimeshack/Instagram_clone.git
 1. This will clone the repositoty into your local folder
 *****
 
