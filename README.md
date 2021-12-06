@@ -7,7 +7,7 @@ by [MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
 <table>
 <tr>
 <td>
-This is a Django application of a personal gallery with different photos of my interests. It enables one to click on a single photo, views details, search different photo categories, copy links of photos for sharing, and based on location view a photo.It is built with Django python framework.
+This is a Django application clone of the website for the popular photo app Instagram.As a user of the application I should be able to sign in to the application to start using, pload my pictures to the application, see my profile with all my pictures, follow other users and see their pictures on my timeline and like a picture and leave a comment on it
 </td>
 </tr>
 </table>
@@ -22,7 +22,7 @@ This is a Django application of a personal gallery with different photos of my i
 * Like a picture and leave a comment on it.
 
 ### Live Site
-View [live](https://myphotopp001.herokuapp.com/)
+View [live](https://instagramapplike.herokuapp.com/)
 
 ### Prerequisites
 * Python 3
