@@ -34,10 +34,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-LOGIN_REDIRECT_URL = 'index'
+LOGIN_REDIRECT_URL = 'photos/index'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'index'
+
 
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')

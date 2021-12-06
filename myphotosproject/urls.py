@@ -6,6 +6,6 @@ from django.urls import path, include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('photos.urls')),
-    path('accounts/', include('django.contrib.auth.urls')), # new
+    url(r'^accounts/', include('django.contrib.auth.urls')),
  
 ]
