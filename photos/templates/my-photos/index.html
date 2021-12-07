@@ -18,14 +18,16 @@
         <div class="meshack"> 
         <!-- loop through all the images -->
 
-         <!-- {% for article in object_list %}
+         {% for pic in photo %}
             <div class="post-entry">
-            <h2><a href="">{{ article.title }}</a></h2>
-            <p>{{ article.photo_imagen }}</p>
+            <h2>post</h2>
+            <img src="{{pic.image.url}}" alt="photo" class="img-responsive">
             </div>
-            {% endfor %} -->
+            {% endfor %}
 
-        {% for pic in photo %}
+
+
+        <!-- {% for pic in photo %}
         
 
         <div class = "col-md-9" data-toggle ="modal" data-target="#showPicModal{{pic.id}}">
@@ -58,7 +60,9 @@
       </div>
     </div>
 
-        {% endfor %}</div>
+        {% endfor %} -->
+      
+      </div>
       
       </div>
       

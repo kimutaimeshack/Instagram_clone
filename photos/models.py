@@ -29,7 +29,7 @@ class Postall(models.Model):
     # title field
     newimage = CloudinaryField('image',null=True)
     def __str__(self):
-        return self.name
+        return self.newimage
 
 class Category(models.Model):
     # title field

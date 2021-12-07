@@ -9,9 +9,9 @@ from django.views.generic.edit import CreateView
 
 
 class BlogCreateView(CreateView): # new
-        model = Article
+        model = photos
         template_name = 'my-photos/post_new.html'
-        fields = ['photo_imagen']
+        fields = ['image']
 
 # Create views
 def news_today(request):
