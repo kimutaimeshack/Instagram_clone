@@ -2,7 +2,7 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse, Http404
 import datetime as dt
-from .models import Article
+from .models import Article, Postall
 from .models import photos
 from django.views.generic import ListView
 from django.views.generic.edit import CreateView
@@ -11,7 +11,7 @@ from django.views.generic.edit import CreateView
 class BlogCreateView(CreateView): # new
         model = Article
         template_name = 'my-photos/post_new.html'
-        fields = '__all__'
+        fields = ['photo_imagen']
 
 # Create views
 def news_today(request):

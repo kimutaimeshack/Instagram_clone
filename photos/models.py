@@ -1,6 +1,6 @@
 from django.db import models
 import datetime as dt
-
+from django.urls import reverse
 # Create your models here.
 class Editor(models.Model):
     first_name = models.CharField(max_length =30 ,null=True)
@@ -65,6 +65,9 @@ class Article(models.Model):
     tags = models.ManyToManyField(tags)
     pub_date = models.DateTimeField(auto_now_add=True, null=True)
     photo_imagen = models.ImageField(upload_to = 'articles/', null=True)
+
+    def get_absolute_url(self): # new
+        return reverse('postdetail', args=[str(self.id)])
 
     def __str__(self):
         return self.title
