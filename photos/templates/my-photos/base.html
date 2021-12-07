@@ -27,9 +27,10 @@
       <p>You are not logged in.</p>
       <a href="{% url 'login' %}">Log In</a>
       <a href="{% url 'signup' %}">Sign Up</a>
+      <h1><a href="{% url 'home' %}">Django blog</a></h1>
       {% endif %}
     {% block content %} <h1 class='text-center'> Instagram </h1> {%endblock%}
-
+      
     {% block scripts %}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      {% bootstrap_javascript %}
