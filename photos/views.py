@@ -4,6 +4,7 @@ from django.http import HttpResponse, Http404
 import datetime as dt
 from .models import Article
 from .models import photos
+from django.views.generic import ListView, DetailView #
 
 # Create views
 def news_today(request):
@@ -18,6 +19,9 @@ def index(request):
     return render(request, 'my-photos/index.html', ctx)
 
 
+class BlogDetailView(DetailView): # new
+        model = Article
+        template_name = 'my-photos/index.html'
 
 def past_days_news(request,past_date):
     
